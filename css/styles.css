@@ -1,0 +1,203 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-image: url("https://lh3.googleusercontent.com/c3WMqBMw_Iq5etkETrim6lhOJzXOnrFKviFdrXd_shTCW4mxxIQtgUQFtF7cSDl-iajS_213A1PYZ8rlSfEXVeLkE1KPSdfOh8Odgy0-bkr0w6JRa6HmnYst1rn0N5bBrYH9THMdra43JVslFIg8mSLDwzqDUH8QmMiJjyiSB4XZBLXLICy6i17vw6z1VMDnpaGkiGz5XqL4uDtMU-W6XT0hCNbIQBinlapTTTVk3Gu2rKjF2PJJE6vEWdJ3lrxDislZ6PxqcmzlR55vFYN8CfM8ogSixPty_vyH7EmgRKFlbsNAORVV8GgkQbLLlbMqSE-iRs6p2ehIYf2aFPy_KI688gjorwLSaFmMm6wjYpKzqMXD56gJ_ylvRozpO2nVOkp4T9geL-46u9KYkj4lCe4ydbnEOwrLpwHH_H9oM2MxAzaaRaMJJaLOVrw27NBU7kBPm-QsIiwSfeKcHRUkP8IfiXUtb8dplubb7S02kNHaeJn0vkoy76gKZQ8z5ui9dmJLcXWN0KMSrBrQXLbuzCfhrXt4otQBM1gC1d_YzFiFj_O-foMqx-K3MeCaN_ok43e-rhOUfR03IQOU4a4ZUj4VWttklu-ywqussdQHS6l3XwJqGuGGKt4e3Y3IE9yH2M_PH6aC9Ptdm_FKeXODXvOSdISZ7yX7Jdci55emAEmyItxfE27LepOhQnFY_A5T5Vu_ie622ptOHj7NG9iysNFY=w612-h357-no?authuser=0");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 100px;
+  background-color: #ddbc2c;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profImg {
+  border-radius: 50%;
+}
+
+.skillImg {
+  width: 25%;
+  height: auto;
+  opacity: 1;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 30px;
+}
+
+.floatRight {
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  width: 2.5rem;
+  border-top: dotted 5px;
+  border-top-color: #c4c4c2;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.checked {
+  color: gold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.introP {
+  width: 30%;
+  margin: 0 auto 30px auto;
+}
+
+.footer-link {
+  padding:0 5px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+  color: #EAF6F6
+}
+
+.ftLinks {
+  margin: 10px auto;
+  color: #11999E;
+}
+
+.contactP {
+  margin: 40px auto 60px auto;
+  width: 30%;
+}
+p{
+  line-height: 2;
+}
+.btn {
+  background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.TM {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .clearLeft {
+    clear: left;
+  }
+
+  .clearRight {
+    clear: right;
+  }
+
+  .skillImg {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .skill-row {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .floatLeft {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .floatright {
+    display: block;
+    margin: 10px auto;
+  }
+}
